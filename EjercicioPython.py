@@ -12,7 +12,7 @@ class Alumno():
 
     def resultado(self):
         print("El alumno " + self.nombre + " con nota " + str(self.nota), end="")
-        if self.nota > 5:
+        if self.nota >= 5:
             print(" ha aprobado")
         else:
             print(" ha suspendido")
